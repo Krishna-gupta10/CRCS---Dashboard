@@ -147,7 +147,7 @@ body {
 .marquee {
   position: absolute;
   top: 0;
-  animation: marquee 10s linear infinite;
+  animation: marquee 5s linear infinite;
 }
 
 .marquee a {
@@ -157,6 +157,15 @@ body {
 
 .marquee a:hover {
   text-decoration: underline;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
 }
 
 
