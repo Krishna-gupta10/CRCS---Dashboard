@@ -7,3 +7,4 @@ The website is completely responsive and has efficient frontend and backend as w
 It used HTML, CSS, JS as well as php.
 mySQL has been used as database for the website.
 
+This repo. consists of the codes as well as the database file.
