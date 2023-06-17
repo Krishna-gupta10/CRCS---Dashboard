@@ -250,13 +250,13 @@ body {
 
   .marquee {
     position: relative;
-    animation: marquee 10s linear infinite;
   }
 
   .marquee-container {
     height: auto;
     margin-bottom: 20px;
-    overflow: visible; 
+    overflow: hidden;
+    height: auto;
   }
 }
 
